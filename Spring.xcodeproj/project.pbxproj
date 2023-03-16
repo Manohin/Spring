@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8A600D0629C255560086E57C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A600D0529C255560086E57C /* AppDelegate.swift */; };
 		8A600D0829C255560086E57C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A600D0729C255560086E57C /* SceneDelegate.swift */; };
-		8A600D0A29C255560086E57C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A600D0929C255560086E57C /* ViewController.swift */; };
+		8A600D0A29C255560086E57C /* SpringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A600D0929C255560086E57C /* SpringViewController.swift */; };
 		8A600D0D29C255560086E57C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A600D0B29C255560086E57C /* Main.storyboard */; };
 		8A600D0F29C255580086E57C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A600D0E29C255580086E57C /* Assets.xcassets */; };
 		8A600D1229C255580086E57C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A600D1029C255580086E57C /* LaunchScreen.storyboard */; };
@@ -22,7 +22,7 @@
 		8A600D0229C255560086E57C /* Spring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spring.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A600D0529C255560086E57C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A600D0729C255560086E57C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8A600D0929C255560086E57C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A600D0929C255560086E57C /* SpringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringViewController.swift; sourceTree = "<group>"; };
 		8A600D0C29C255560086E57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A600D0E29C255580086E57C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A600D1129C255580086E57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 		8AABA68F29C3ABDC00FE7EC9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				8A600D0929C255560086E57C /* ViewController.swift */,
+				8A600D0929C255560086E57C /* SpringViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A600D0A29C255560086E57C /* ViewController.swift in Sources */,
+				8A600D0A29C255560086E57C /* SpringViewController.swift in Sources */,
 				8AABA69329C3B16E00FE7EC9 /* DataManager.swift in Sources */,
 				8A600D0629C255560086E57C /* AppDelegate.swift in Sources */,
 				8AABA68D29C3914100FE7EC9 /* Animation.swift in Sources */,

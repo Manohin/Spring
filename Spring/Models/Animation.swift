@@ -14,7 +14,7 @@ struct Animation {
     let duration: Double
     let delay: Double
     
-    static var animation: Animation {
+    static var getAnimation: Animation {
         Animation(
             preset: DataManager.shared.animations.randomElement() ?? .fadeIn,
             curve: DataManager.shared.curves.randomElement() ?? .easeIn,
