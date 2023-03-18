@@ -26,8 +26,8 @@ struct Animation {
     
     static var getAnimation: Animation {
         Animation(
-            preset: DataStore.shared.animations.randomElement() ?? .fadeIn,
-            curve: DataStore.shared.curves.randomElement() ?? .easeIn,
+            preset: AnimationPreset.allCases.randomElement() ?? .fadeIn,
+            curve: AnimationCurve.allCases.randomElement() ?? .easeIn,
             force: Double.random(in: 1...3),
             duration: Double.random(in: 1...3),
             delay: Double.random(in: 0.1...0.5)

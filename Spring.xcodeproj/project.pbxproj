@@ -15,7 +15,6 @@
 		8A600D1229C255580086E57C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A600D1029C255580086E57C /* LaunchScreen.storyboard */; };
 		8A600D1B29C257180086E57C /* SpringAnimation in Frameworks */ = {isa = PBXBuildFile; productRef = 8A600D1A29C257180086E57C /* SpringAnimation */; };
 		8AABA68D29C3914100FE7EC9 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AABA68C29C3914100FE7EC9 /* Animation.swift */; };
-		8AABA69329C3B16E00FE7EC9 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AABA69229C3B16E00FE7EC9 /* DataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +27,6 @@
 		8A600D1129C255580086E57C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A600D1329C255580086E57C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AABA68C29C3914100FE7EC9 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
-		8AABA69229C3B16E00FE7EC9 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +60,6 @@
 		8A600D0429C255560086E57C /* Spring */ = {
 			isa = PBXGroup;
 			children = (
-				8AABA69429C3B17500FE7EC9 /* Services */,
 				8AABA68E29C3914700FE7EC9 /* Models */,
 				8AABA68F29C3ABDC00FE7EC9 /* ViewControllers */,
 				8AABA69129C3AC1900FE7EC9 /* Storyboards */,
@@ -105,14 +102,6 @@
 				8A600D1029C255580086E57C /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		8AABA69429C3B17500FE7EC9 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				8AABA69229C3B16E00FE7EC9 /* DataStore.swift */,
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +182,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A600D0A29C255560086E57C /* SpringViewController.swift in Sources */,
-				8AABA69329C3B16E00FE7EC9 /* DataStore.swift in Sources */,
 				8A600D0629C255560086E57C /* AppDelegate.swift in Sources */,
 				8AABA68D29C3914100FE7EC9 /* Animation.swift in Sources */,
 				8A600D0829C255560086E57C /* SceneDelegate.swift in Sources */,
