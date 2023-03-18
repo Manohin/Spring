@@ -37,7 +37,6 @@ final class SpringViewController: UIViewController {
         presetAnimationLabel.text = animate.description
         animate = Animation.getAnimation
         sender.setTitle("Запустить  \(animate.preset.rawValue)", for: .normal)
-        
     }
 }
 
