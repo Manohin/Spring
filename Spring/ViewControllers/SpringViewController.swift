@@ -19,7 +19,7 @@ final class SpringViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        launchButton.setTitle("Запустить  \(animate.preset.rawValue)", for: .normal)
+        launchButton.setTitle("Запустить \(animate.preset.rawValue)", for: .normal)
         presetAnimationLabel.text = animate.description
     }
     
