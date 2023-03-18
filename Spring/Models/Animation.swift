@@ -18,19 +18,19 @@ struct Animation {
         return """
         Preset: \(preset)
         Curve: \(curve)
-        Force: \(String(format: "%.02f", force))
-        Duration: \(String(format: "%.02f", duration))
-        Delay: \(String(format: "%.02f", delay))
+        Force: \(String(format: "%.1f", force))
+        Duration: \(String(format: "%.1f", duration))
+        Delay: \(String(format: "%.1f", delay))
         """
     }
     
     static var getAnimation: Animation {
         Animation(
-            preset: AnimationPreset.allCases.randomElement() ?? .fadeIn,
-            curve: AnimationCurve.allCases.randomElement() ?? .easeIn,
-            force: Double.random(in: 1...3),
-            duration: Double.random(in: 1...3),
-            delay: Double.random(in: 0.1...0.5)
+            preset: DataStore.shared.preset.randomElement() ?? .fadeIn,
+            curve: DataStore.shared.curve.randomElement() ?? .easeIn,
+            force: DataStore.shared.force.randomElement() ?? 1.0,
+            duration: DataStore.shared.duration.randomElement() ?? 1.0,
+            delay: DataStore.shared.delay.randomElement() ?? 0.3
         )
     }
 }
