@@ -26,11 +26,11 @@ struct Animation {
     
     static var getAnimation: Animation {
         Animation(
-            preset: DataStore.shared.preset.randomElement() ?? .fadeIn,
-            curve: DataStore.shared.curve.randomElement() ?? .easeIn,
-            force: DataStore.shared.force.randomElement() ?? 1.0,
-            duration: DataStore.shared.duration.randomElement() ?? 1.0,
-            delay: DataStore.shared.delay.randomElement() ?? 0.3
+            preset: DataStore.shared.presets.randomElement() ?? .fadeIn,
+            curve: DataStore.shared.curves.randomElement() ?? .easeIn,
+            force: Double.random(in: 1...3),
+            duration: Double.random(in: 1...3),
+            delay: Double.random(in: 0.1...0.5)
         )
     }
 }
